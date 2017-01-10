@@ -1,5 +1,5 @@
 $(function(){
-    $("#generation-button").on("click touchstart",function(){
+    $("#generation-button").on("click",function(){
     
     //alert
     alert("TestJQUERY");
