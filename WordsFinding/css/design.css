@@ -50,8 +50,7 @@ html, body {
 
 #content {
 	position: relative;
-	left: 220px;
-	padding-left: 50px;
+	padding-left: 270px;
 }
 
 #content > h1 {
