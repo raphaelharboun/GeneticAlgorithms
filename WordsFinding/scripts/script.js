@@ -9,12 +9,15 @@ $(function(){
 
     //set mutation rate
     population.mutationRate = $("#mutation-rate").val();
+    alert(population.mutationRate);
 
     //set population size
     population.length = $("#population-size").val();
+    alert(population.length);
 
     //set population target
     population.target = $("#guess-phrase-input").val();
+    alert(population.target);
 
     //initialize population
     population.initializePopulation();
