@@ -1,6 +1,7 @@
 $(function(){
     $("#generation-button").on("click touchstart",function(){
-
+    
+    //alert
     alert("TestJQUERY");
 
     //create new population
