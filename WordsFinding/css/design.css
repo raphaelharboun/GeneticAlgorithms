@@ -44,6 +44,10 @@ html, body {
 	text-align: center;
 }
 
+#generation-button{
+	cursor: pointer;
+}
+
 #content {
 	position: relative;
 	left: 220px;
