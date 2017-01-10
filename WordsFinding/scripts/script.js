@@ -2,14 +2,16 @@ $(function(){
     $("#generation-button").on("click",function(){
     
     //alert
-    alert("TestJQUERY");
+    //alert("TestJQUERY");
 
+    alert("Before population istance");
     //create new population
     var population = new Population();
+    alert("After population instance");
 
     //set mutation rate
     population.mutationRate = $("#mutation-rate").val();
-    alert(population.mutationRate);
+    alert("After population rate set up");
 
     //set population size
     population.length = $("#population-size").val();
