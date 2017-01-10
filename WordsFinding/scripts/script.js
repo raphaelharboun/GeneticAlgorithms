@@ -1,25 +1,17 @@
 $(function(){
     $("#generation-button").on("click",function(){
-    
-    //alert
-    //alert("TestJQUERY");
 
-    alert("Before population istance");
     //create new population
     var population = new Population();
-    alert("After population instance");
 
     //set mutation rate
     population.mutationRate = $("#mutation-rate").val();
-    alert("After population rate set up");
 
     //set population size
     population.length = $("#population-size").val();
-    alert(population.length);
 
     //set population target
     population.target = $("#guess-phrase-input").val();
-    alert(population.target);
 
     //initialize population
     population.initializePopulation();
