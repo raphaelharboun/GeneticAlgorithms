@@ -1,5 +1,3 @@
-alert("population.js loaded");
-
 function Population() {
 
     //set population size to 100 by default
