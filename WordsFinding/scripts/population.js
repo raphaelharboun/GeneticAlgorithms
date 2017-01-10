@@ -47,7 +47,7 @@ function Population() {
         }
         //then normalize the score
         for (var i=0; i<this.length; i++) {
-            this.population[i].score = Math.floor(mapRange(this.population[i].score,0,maxScore,0,1)**2);
+            this.population[i].score = Math.pow(Math.floor(mapRange(this.population[i].score,0,maxScore,0,1)),2);
         }
     };
 
