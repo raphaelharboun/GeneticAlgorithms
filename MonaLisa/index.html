@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.2.2/pixi.min.js"></script>
+    <script src="scripts/gene.js"></script>
+    <script src="scripts/population.js"></script>
+    <script src="scripts/DNA.js"></script>
+    <script src="scripts/pixiUtils.js"></script>
+    <script src="scripts/script.js"></script>
+    <link rel="stylesheet" href="css/design.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="sidebar">
+                <h4>Parameters</h4>
+                <p>Population size:</p>
+                <input type="text" id="population-size" value="100">
+                <p>Mutation Rate: </p>
+                <input type="text" id="mutation-rate" value="0.01">
+                <p>Target Score: </p>
+                <input type="text" id="target-score" value="1">
+                <br>
+                <input type="button" id="generation-button" value="Trigger Generation" onclick="" >
+                <h4>Results</h4>
+                <p>Iteration : <span id="iteration-count">0</span></p>
+                <p>Current Best Score : <span id="max-score">0</span></p>
+            </div>
+            <div id="content">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
